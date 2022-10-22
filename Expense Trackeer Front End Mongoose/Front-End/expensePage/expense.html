@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <a href="./expensesPage.html"><button id="expenses">Click to open Expenses Page</button> </a>
+    <button id="button1" >Dark Mode</button>
+    
+    <div id="formBody">
+    <form id="Form">
+        
+        
+        <label for="expenseAmount">Choose Expense Amount</label>
+        <br>
+        <input type="number" id="expenseAmount" name="expenseAmount" required>
+        <input type="button" id="deleteAll" value="DELETE ALL"></input>
+        <br>
+        <label for="chooseDescription">Expense Description</label>
+        <br>
+        <input type="text" id="chooseDescription" name="chooseDescription" required></input>
+        <br>
+        <label for="category">Choose Expense Type</label>
+        <br>
+        <select id="expenseType" name="category" required>
+            <option></option>
+            <option value="fuel">fuel</option>
+            <option value="movie">movie</option>
+            <option value="snacks">snacks</option>
+            <option value="lifestyle">lifestyle</option>
+        </select>
+        <input type="submit" id="submit">
+    </div>
+        <ul id="expenseList">
+
+        </ul>
+     
+    </form>
+    
+   
+</body>
+<script src="expense.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+</html>

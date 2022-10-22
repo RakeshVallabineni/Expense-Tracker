@@ -1,0 +1,47 @@
+#column{
+    
+   
+    background-color: rgb(91, 195, 229)
+}
+#table #column{
+    border:0.5px solid;
+}
+#tables #column{
+    border:0.5px solid;
+}
+#table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+#tables {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+#thR{
+    border:0.5px solid;
+}
+
+#expenseTotal{
+    border:0.5px solid;
+}
+
+body{
+    background-color: dark;
+}
+
+#day{
+    text-align: center;
+    background-color: aqua;
+
+    height: 20px;
+}
+
+#pagination{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    padding: 2% 2%;
+   
+}
+
